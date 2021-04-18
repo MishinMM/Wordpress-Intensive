@@ -1,0 +1,29 @@
+.title {
+    color: #f9bf3b;
+    font-size: 41px;
+    line-height: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+.title {
+    font-size: 32px;
+    line-height: 35px;
+}
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 23px;
+    }
+}
