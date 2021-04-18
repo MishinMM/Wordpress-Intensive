@@ -11,6 +11,15 @@
     margin: 0 auto;
     border: 2px solid red;
 }
+.divider {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
 @media (max-width: 1200px) {
     .container {
         max-width: 960px;
@@ -38,3 +47,4 @@
 @import 'blocks/promo';
 @import 'blocks/titles';
 @import 'blocks/buttons';
+@import 'blocks/waiting';
