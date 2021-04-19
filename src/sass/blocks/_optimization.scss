@@ -1,0 +1,48 @@
+.optimization {
+    min-height: 400px;
+    padding: 50px 0;
+    &__wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    &__img {
+        width: 40%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__content {
+        width: 60%;
+        padding: 10px;
+        &-descr {
+            color: #4a4a4a;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 18px;
+            text-align: left;
+            &_bold {
+                font-weight: 700;
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    .optimization {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__img {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        &__content {
+            width: 100%;
+            &-descr {
+                text-align: center;
+            }
+        }
+    }
+}

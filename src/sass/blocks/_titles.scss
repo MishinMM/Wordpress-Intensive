@@ -11,6 +11,12 @@
         font-weight: 400;
         line-height: 30px;
     }
+    &_blue {
+        color: #299cbd;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 30px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -21,6 +27,9 @@
     .title {
         font-size: 32px;
         line-height: 35px;
+        &_blue {
+            font-size: 22px;
+        }
     }
 }
 
@@ -28,6 +37,9 @@
     .title {
         &_light {
             font-size: 28px;
+        }
+        &_blue {
+            font-size: 20px;
         }
     }
 }
