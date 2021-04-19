@@ -1,0 +1,39 @@
+.training {
+    min-height: 450px;
+    padding: 80px 0;
+    background-image: url('../img/bg/second_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        width: 200px;
+        &-img {
+            width: 115px;
+            height: 115px;
+            background-color: #b4e2ff;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &-descr {
+            margin-top: 25px;
+            color: #efefef;
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 20px;
+            text-align: center;
+        }
+    }
+}

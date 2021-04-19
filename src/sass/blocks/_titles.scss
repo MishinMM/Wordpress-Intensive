@@ -10,6 +10,9 @@
         font-size: 30px;
         font-weight: 400;
         line-height: 30px;
+        &_white {
+            color: #efefef;
+        }
     }
     &_blue {
         color: #299cbd;
@@ -37,6 +40,9 @@
     .title {
         &_light {
             font-size: 28px;
+            &_white {
+                font-size: 28px;
+            }
         }
         &_blue {
             font-size: 20px;
