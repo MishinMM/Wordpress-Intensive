@@ -37,7 +37,7 @@
             <div class="promo__content">
                 Ежедневно в России появляется более 5 000 новых сайтов. И только единицы из них становятся популярными и приносят ощутимую прибыль. В чем секрет? В чем формула успеха? Узнайте на предстоящем двухдневном <span>бесплатном</span> интенсиве!
             </div>
-            <button class="btn">Записаться на интенсив!</button>
+            <button data-modal="registration" class="btn js-open-modal">Записаться на интенсив!</button>
             <div class="promo__arrow">
                 <div class="promo__arrow-title">
                     Узнать больше об интенсиве
@@ -118,7 +118,6 @@
             </h2>
             <div class="divider"></div>
             <div class="training__wrapper">
-
                 <div class="training__item">
                     <div class="training__item-img">
                         <img src="icons/finish/finish_icon_1.png" alt="Image">
@@ -127,7 +126,6 @@
                         Создать свой сайт или блог
                     </div>
                 </div>
-
                 <div class="training__item">
                     <div class="training__item-img">
                         <img src="icons/finish/finish_icon_2.png" alt="Image">
@@ -136,7 +134,6 @@
                         Правильно его оптимизировать
                     </div>
                 </div>
-
                 <div class="training__item">
                     <div class="training__item-img">
                         <img src="icons/finish/finish_icon_3.png" alt="Image">
@@ -145,7 +142,6 @@
                         Обеспечить ему медленный, но верный рост в ТОП
                     </div>
                 </div>
-
                 <div class="training__item">
                     <div class="training__item-img">
                         <img src="icons/finish/finish_icon_4.png" alt="Image">
@@ -154,7 +150,6 @@
                         Достигнуть стабильного прироста посетителей
                     </div>
                 </div>
-
                 <div class="training__item">
                     <div class="training__item-img">
                         <img src="icons/finish/finish_icon_5.png" alt="Image">
@@ -163,9 +158,57 @@
                         Получать ощутимую прибыль
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
+
+    <section class="bonus">
+        <div class="container">
+            <div class="bonus__img">
+                <img src="icons/gift.png" alt="Image">
+            </div>
+            <div class="bonus__content">
+                Для всех участников интенсива предусмотрены бонусы и подарки. Нажимайте на кнопку ниже, принимайте участие в вебинарах и забирайте свой приз по окончании обучения!
+            </div>
+            <button data-modal="registration" class="btn js-open-modal">Записаться на интенсив!</button>
+        </div>
+    </section>
+
+    <section class="webinar">
+        <div class="container">
+            <div class="webinar__img">
+                <img src="img/first_webinar/first.png" alt="Image">
+            </div>
+            <div class="title title_light">Первый вебинар состоится:</div>
+            <h2 class="title title_blue webinar__title">10 сентября в 20:00 по Москве</h2>
+            <div class="webinar__descr">Успейте записаться, количество мест ограничено!</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a href="#" class="footer__link">Служба поддержки</a>
+                <div class="footer__divider">|</div>
+                <a href="#" class="footer__link">Политика конфиденциальности</a>
+            </div>
+            <div class="footer__call">Позвоните нам 8-800-555-01-21</div>
+        </div>
+    </footer>
+
+    <section class="overlay" id="overlay">
+        <div class="modal" id="registration">
+            <div class="modal__close js-modal-close">&times;</div>
+            <div class="modal__subtitle">Укажите Ваши контактные данные:</div>
+            <form action="#" class="modal__form">
+                <input required name="name" type="text" placeholder="Ваше имя...">
+                <input required name="phone" type="text" placeholder="Ваш номер телефона...">
+                <input required name="email" type="email" placeholder="Ваш e-mail...">
+                <button class="btn modal__form-button">Записаться на интенсив!</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
